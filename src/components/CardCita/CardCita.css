@@ -1,0 +1,29 @@
+.card {
+  background-color: #fefefe;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card-expirada {
+  background-color: #ffe5e5;
+  border-color: #ff4d4f;
+}
+
+.card-actual {
+  background-color: #e6ffed;
+  border-color: #52c41a;
+}
+
+.tag {
+  margin-top: 8px;
+  font-weight: bold;
+  color: #555;
+}
+
+.card:hover {
+  transform: scale(1.01);
+}
